@@ -5,4 +5,10 @@ node {
 stage('new') {
 sh 'echo hello'
 }
+stage('one'){
+ when { 
+            not { 
+                branch 'master' 
+            }
+        }
 }
