@@ -6,4 +6,4 @@ stage('new') {
 sh 'echo hello'
 }
 }
-}
+
