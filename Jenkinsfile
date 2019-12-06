@@ -8,7 +8,7 @@ sh 'echo hello'
 stage('one'){
  when { 
             not { 
-                branch 'master' 
+                branch 'gameoflife-release-.1' 
             }
         }
 }
